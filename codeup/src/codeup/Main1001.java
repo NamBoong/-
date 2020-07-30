@@ -1,6 +1,6 @@
 package codeup;
 
-public class Main1 {
+public class Main1001 {
 
 	public static void main(String[] args) {
 		System.out.println("Hello");
