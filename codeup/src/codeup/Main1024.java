@@ -19,6 +19,7 @@ public class Main1024 {
 			// ++i 1부터 증가하고 1+i한거 사용
 			
 			System.out.println("'" + arr[i] + "'");
+			//'a' 'b' 이렇게 나와야한다고해서 추가했다.
 		
 			scan.close();
 			
