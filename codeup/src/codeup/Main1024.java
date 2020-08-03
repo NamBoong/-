@@ -18,8 +18,8 @@ public class Main1024 {
 			// --i 1부터 감소하고 -1+i한거 사용
 			// ++i 1부터 증가하고 1+i한거 사용
 			
-			System.out.println(arr[i]);
-			
+			System.out.println("'" + arr[i] + "'");
+		
 			scan.close();
 			
 		}
