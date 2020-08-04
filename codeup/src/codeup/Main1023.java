@@ -18,6 +18,7 @@ public class Main1023 {
 			System.out.println(arr[0]);
 			System.out.println(arr[1]);
 
+			scan.close();
 			
 		}
 			
