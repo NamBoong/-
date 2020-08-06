@@ -7,4 +7,6 @@ public class Main1035 {
 
 	}
 
+	코드업 1034번 풀이
+
 }
