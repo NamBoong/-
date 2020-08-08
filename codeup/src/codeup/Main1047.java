@@ -11,7 +11,8 @@ public class Main1047 {
 		int value1 = scan.nextInt();
 		
 		System.out.println(value1<<1);
-		// 설명에서 알려준대로 <<는 곱하기 >>는 나누기를 이용해주자
+		// 설명에서 알려준대로 <<a는 2의 제곱승을  >>a는 루트라는 것을 이용해주자
+		// 이전에 곱하기와 나누기라고 말했다. 멍청이...ㅠㅠ
 		
 		scan.close();
 		
