@@ -11,17 +11,14 @@ public class Main1080 {
 		int value1 = scan.nextInt();
 		int i = 0;
 		
-		while(true) {
-			int sum = i++;
-			if(sum>=value1) {
-				System.out.println(sum);
+		for(int b=0; i<value1; b++) {
+			i = i+b;
+			if(i>=value1) {
+				System.out.println(b);
 				break;
 			}
-
 		}
-
 		scan.close();
 	}
 }
-
-// 아직 푸는중
+			
