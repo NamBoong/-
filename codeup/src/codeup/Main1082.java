@@ -12,12 +12,19 @@ public class Main1082 {
 		
 		for(int v=1; v<=16; v++) {
 			//a´Â µÑÀÇ °ö¼À °á°ú
+
 			int a = v;
-			String b = Integer.toHexString(a);
-			System.out.println(value1 + "*" + v + "=" + b);
+			int b = Integer.valueOf(a);
+			String c = Integer.toHexString(b);
+			System.out.println(value1 + "*" + stringToHex(v) + "=" + c );
 		}
 		
 		scan.close();
+	}
+
+	private static int stringToHex(int v) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
