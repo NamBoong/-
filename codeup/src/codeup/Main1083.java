@@ -19,6 +19,7 @@ public class Main1083 {
 				System.out.printf(i+" ");
 			}
 		}
+		scan.close();
 	}
 
 }
