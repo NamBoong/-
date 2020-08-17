@@ -23,6 +23,7 @@ public class Main1094 {
 		for(int i=0; i<list.size(); i++) {
 			System.out.printf(list.get(i) + " ");
 		}
+		scan.close();
 	}
 
 }
