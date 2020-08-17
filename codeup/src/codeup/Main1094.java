@@ -12,6 +12,7 @@ public class Main1094 {
 		
 		int value1 = scan.nextInt();
 		ArrayList<Integer> list = new ArrayList<>();
+		//이게 변수가 들어갈 공간을 만들어주는 거라고한다.
 		
 		for(int i=0; i<value1; i++) {
 			int value2 = scan.nextInt();
