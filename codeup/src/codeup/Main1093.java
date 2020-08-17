@@ -18,7 +18,7 @@ public class Main1093 {
 		for(int i=0; i<23; i++) {
 			System.out.printf(arr[i] + " ");
 		}
-		
+		scan.close();
 	}
 
 }
