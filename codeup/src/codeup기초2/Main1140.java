@@ -2,7 +2,7 @@ package codeup±âÃÊ2;
 
 import java.util.Scanner;
 
-public class Main1040 {
+public class Main1140 {
 
 	public static void main(String[] args) {
 
