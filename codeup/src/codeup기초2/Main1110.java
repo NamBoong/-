@@ -9,6 +9,7 @@ public class Main1110 {
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
 		System.out.println(a);
+		scan.close();
 	}
 
 }
