@@ -29,6 +29,7 @@ public class Main1180 {
 				System.out.println("OH MY GOD");
 			}
 		}
+		scan.close();
 	}
 
 }
