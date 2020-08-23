@@ -1,0 +1,19 @@
+package codeup±‚√ 4;
+
+import java.util.Scanner;
+
+public class Main1265 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		int a = scan.nextInt();
+		
+		for(int i=1; i<=9; i++) {
+			System.out.println(a+"*"+i+"="+(a*i));
+		}
+		scan.close();
+	}
+
+}
