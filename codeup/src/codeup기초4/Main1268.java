@@ -19,6 +19,7 @@ public class Main1268 {
 			}
 		}
 		System.out.println(answer);
+		scan.close();
 	}
 
 }
