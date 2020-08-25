@@ -6,6 +6,7 @@ public class Main1282 {
 
 	public static void main(String[] args) {
 
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		
 		int n = scan.nextInt();
