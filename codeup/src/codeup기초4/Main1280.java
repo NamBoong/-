@@ -24,6 +24,7 @@ public class Main1280 {
 			}
 		}
 		System.out.printf("=" + (answer1+answer2));
+		scan.close();
 	}
 
 }
