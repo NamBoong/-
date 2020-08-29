@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main2721 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
@@ -34,6 +35,7 @@ public class Main2721 {
 		else {
 			System.out.println("bad");
 		}
+		
 		scan.close();
 		//현재 입력값이 
 		// turtle
