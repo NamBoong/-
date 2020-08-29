@@ -17,6 +17,7 @@ public class Main1990 {
 		if(a.remainder(BigInteger.valueOf(3)) == BigInteger.valueOf(0)) {
 			System.out.println(1);
 		}
+		scan.close();
 	}
 
 }
