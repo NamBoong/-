@@ -24,6 +24,6 @@ public class Main1096 {
 			}
 			System.out.printf("\n");
 		}
-
+		scan.close();
 		}
 	}
