@@ -25,6 +25,7 @@ public class Main1548 {
 		if(60>n) {
 			System.out.println("F");
 		}
+		scan.close();
 	}
 
 }
