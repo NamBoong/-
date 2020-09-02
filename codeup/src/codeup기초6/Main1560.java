@@ -17,6 +17,10 @@ public class Main1560 {
 		if(a<b) {
 			System.out.println(b-a);
 		}
+		
+		if(a==b) {
+			System.out.println(0);
+		}
 		scan.close();
 	}
 
