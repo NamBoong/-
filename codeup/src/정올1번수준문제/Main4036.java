@@ -1,4 +1,4 @@
-package 정을1번수준문제;
+package 정올1번수준문제;
 
 import java.util.Scanner;
 
