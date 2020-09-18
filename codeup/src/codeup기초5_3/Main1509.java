@@ -18,8 +18,6 @@ public class Main1509 {
 		
 		int width = 0;
 		int count = 0;		
-		int crash = 0;
-		int fall = 0;
 
 		while(width<10) {
 			
@@ -38,8 +36,8 @@ public class Main1509 {
 						}						
 					}
 					
-					if(arr[i][width]>=1) {
-						System.out.println((width+1) +" "+count + " crash");
+					if(arr[i][width]>=1 || (arr[9][width]>=1 && arr[10][width]==1)) {
+						System.out.println((width+1) + " crash");
 						width++;
 						count=0;
 						if(width+1==11) {
@@ -47,8 +45,8 @@ public class Main1509 {
 						}
 					}
 					
-					if(arr[i][width]<0) {
-						System.out.println((width+1) +" "+count+ " fall");
+					if(arr[i][width]<0 || (arr[9][width]<0 && arr[10][width]==1)) {
+						System.out.println((width+1) + " fall");
 						width++;
 						count=0;
 						if(width+1==11) {
@@ -56,7 +54,7 @@ public class Main1509 {
 						}
 					}
 				
-					
+
 					
 				if(arr[10][width]==0) {
 					width++;
@@ -75,3 +73,4 @@ public class Main1509 {
 }
 
 //특별 케이스들이 crash가 fall로 나오고있다....
+//억지로 9번열에 추가 조건을 붙였다.
