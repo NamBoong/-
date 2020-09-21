@@ -30,24 +30,21 @@ public class Main4536 {
 			}
 		}
 		
-		
-		// 최빈값이 나오지않고 있다.
-		
-		
 		int i = 0;
-		int j = i+1;
 		int count = 0;
 		
 		int gap = Integer.MIN_VALUE;
 		int answer1 = 0;
 		
-		while(i<j) {
-			if(arr[i]==arr[j]) {
+		while(i<8) {
+			if(i-1>=0) {
+			if(count>=gap) {
+				gap = count;
+				answer1 = arr[i-1];
+			}
+			}
+			if(arr[i]==arr[i+1]) {
 				count++;
-				if(count>gap) {
-					gap = count;
-					answer1 = arr[i];
-				}
 				i++;
 			}
 			else {
