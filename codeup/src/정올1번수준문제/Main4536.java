@@ -54,6 +54,7 @@ public class Main4536 {
 			
 		}
 		System.out.println(answer1);
+		scan.close();
 	}
 
 }
