@@ -20,13 +20,33 @@ public class Main1493 {
 		}
 		
 		int sum = 0;
+		int a = 0;
+		int b = 0;
 		
-		for(int i=0; i<n; i++) {
-			for(int j=0; j<m; j++) {
-				sum = sum + arr[i][j] ;
-				arr2[i][j] = sum;
-			}
+		
+		// 2번째줄부터 안나오고있음
+		while(a<n && b<m) {		
+
+				for(int k=0; k<a+1; k++) {
+					for(int l=0; l<b+1; l++) {
+						sum = sum + arr[k][l];						
+						arr2[a][b] = sum;
+						
+					}
+					b++;
+					sum = 0;
+					
+				}
+				
+				if(b>m) {
+					b=0;
+					sum = 0;
+					a++;
+				}
+
 		}
+		
+		
 		
 		for(int i=0; i<n; i++) {
 			for(int j=0; j<m; j++) {
