@@ -2,7 +2,7 @@ package ±×¸®µð;
 
 import java.util.Scanner;
 
-public class Main3120 {
+public class Main3301 {
 
 	public static void main(String[] args) {
 
