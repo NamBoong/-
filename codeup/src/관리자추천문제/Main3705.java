@@ -38,7 +38,7 @@ public class Main3705 {
 		}
 		
 		System.out.println(answer);
-		
+		scan.close();
 	}
 
 }
