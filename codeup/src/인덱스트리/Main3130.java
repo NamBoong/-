@@ -32,6 +32,8 @@ public class Main3130 {
 		}
 		
 		System.out.println(answer);
+		
+		scan.close();
 	}
 
 }
